@@ -1,0 +1,58 @@
+*{padding: 0 ;margin: 0;}
+body{ font-family:"微软雅黑";}
+ul{list-style:none;}
+a{text-decoration:none; color: #000;} 
+.clear {clear:both;} 
+/*头部*/
+.top{width: 100%;height: 50px; background-color: #eee;}
+.top ul{width: 700px;margin: auto;}
+.top ul li {width: 100px; ;height: 50px;text-align: center;float: right;position: relative;}
+.top ul li a {line-height: 50px;display: block;}
+.top ul li a:hover{color: coral;background-color:#fff;}
+.top ul li ul li{float: none;border-bottom: #eee 1px solid ;}
+.top ul li ul{display: none;position: absolute;z-index: 1;background-color:#fff;width: 100px;}
+.top ul li:hover ul{display: block;}
+.top ul li ul li:hover a {background-color: #eee;}
+.header{height:110px; width: 1300px; margin:0 auto;background-color: #fff;position: relative;} 
+.header .logo{float:left; margin-top:10px;} 
+.header .text{height: 110px;line-height: 110px;font-size: 16px;position: absolute;right: 50px;}
+.header .text a:hover{color:coral;}
+.header #two{color:darkgrey ;}
+.header #two:hover{color:coral;}
+.header .ku{position:absolute;top:30px;left:350px;width: 540px;height: 40px;border: red 3px solid;}
+.header .zi{position:absolute;top: 30px;left: 895px;float: left;height: 46px;width: 75px;border: red 3px solid;background-color: red;color: #fff;font-size: 18px;}
+.kbottom {position:relative;left: 58px;top: -26px;font-size: 13px;}
+.kbottom a:hover{color:coral;}
+.kbottom a{ color: darkgrey;}
+.kbottom #one{color: red;}
+.kbottom #one:hover{color:coral;}
+
+.leftitle{width: 1100px;height: 440px;margin: 0 auto;margin-top: 40px;background: url(images/未标题-1.png);}
+.leftitle .left{width: 200px;height: 430px;background-color:burlywood ; padding-top:10px ;}
+.leftitle .left ul li{height: 35px;position: relative;}
+.leftitle .left ul li a{color: #fff;font-size: 19px;display:block;padding-left: 6px;}
+.leftitle .left ul li a:hover{background-color: #eee;color: red;}
+.leftitle .left ul li:hover ul{display: block;z-index: 1;}
+.leftitle .left ul li ul{width: 900px;height: 440px;background-color:#eee;position: absolute;left: 200px;top: -45px;display: none;}
+.leftitle .left ul li ul li{width: 110px;height: 30px;float: left;margin: 20px;text-align: center;line-height: 30px;}
+.leftitle .left ul li ul li a{color: gray;font-size: 16px;}
+.leftitle .left ul li ul li a span{color: #000;font-size: 18px;}
+.title{width: 100%;height: 50px;background-color:burlywood;position: absolute;top: 160px;}
+.title .nav ul{width: 1200px;margin: auto;}
+.title .nav ul li {width: 200px; float: left;height: 50px;line-height: 50px;text-align: center;}
+.title .nav ul li a{color: #fff;font-size: 18px;}
+.title .nav ul li a:hover{color: red;}
+.pro{ width:1030px; margin:20px auto; background-color: #eee; height: 620px;border-radius: 10px;}
+
+.pro .title1{  text-align:left;  line-height:50px;width: 1030px;height: 50px;background-color: #ddd;border-radius: 10px 10px 0 0;}
+.pro .title1 h1{ font-size:20px; color:#555;padding-left: 25px;}
+.pro .con ul li{width:217px;height: 240px; float:left; margin:20px; text-align:left;}
+.pro .con ul li a{text-decoration:none; color:#666; display:block;}
+.pro .con ul li a:hover{color:#F00;}
+.pro .con ul li a img{border:1px solid #ccc;}
+.pro .con ul li a:hover img{border:1px solid #f00;}
+.price{color: #f00;}
+.foot{width: 100%;height: 100px;background-color: #eee;margin: 0 auto; text-align: center;}
+.foot p{padding-top: 10px;}
+.foot p a{color: #666;}
+.foot p a:hover{color: coral;}

@@ -1,0 +1,24 @@
+*{padding: 0 ;margin: 0;}
+body{ font-family:"微软雅黑";}
+a{text-decoration:none; color: #000;}
+.clear{clear: both;}
+.content{width:1200px;height: 700px;margin:50px auto 0;border:1px solid #ccc;background: #fff;}
+
+.content p{height:120px;line-height: 120px; color: #2fade7;padding-left: 100px;margin-top: 20px;}
+.content .picture{float: left;margin-left: 100px;}
+.content .right {width: 385px;float: left;margin-left: 80px;}
+.content .right input{width: 340px;height: 30px;padding-left:20px;line-height: 30px;color: #ccc;font-size:16px;margin-top: 20px;border-radius: 5px;border:1px solid #ccc;}
+.p_none{display: none;}
+
+
+input::placeholder{color:#CCC;}
+.content .right .short {width:230px;}
+.content .right span{display: inline-block;width:91px;font-size: 14px;color: #2fade7;margin:30px 0 0 25px;}
+.content .right p{font-size:14px;padding:0;height:40px;line-height: 40px;color:red;}
+.content .right input:nth-of-type(5) {margin:0;}
+.content .right .button{width: 360px;height:36px;color:#fff;background:#2fade7;border: none;border-radius: 5px;margin-bottom: 20px;pointer-events: none;}
+.content .right .button:hover{background: #0272da;}
+.content .right p:nth-of-type(2){color: #ccc;}
+.content .right p:nth-of-type(2) a{color: #2fade7;}
+.home{float: right;padding-right: 10px;margin-bottom: 20px;}
+.home a:hover{color: #0272da;}

@@ -1,0 +1,248 @@
+/*主体内容区域 */
+body{
+    background-color: #f7f7f8;
+}
+/* 共同红色字体类 */
+.red{
+    color: #cf4444;
+}
+.pannel{
+    margin-bottom: 12px 11px 11px 10px;
+    color: #fff;
+}
+.main{
+     padding: 12px 11px 80px;
+     width: 70%;
+     margin: 0 auto;
+}
+/*用户信息区域 */
+.user_msg{
+    display: flex;
+    padding-left: 11px;
+    padding-right: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.user_msg  .location{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #54b196;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+.user_msg .user{
+    flex: 1;
+    color: #767676;
+    font-family: PingFangSC-Regular;
+}
+.user_msg .user .top{
+    display: flex;
+    font-size: 15px;
+}
+.user_msg .user .top h4{
+    width: 100px;
+    margin-bottom: 5px;
+}
+.user_msg .more{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: gainsboro;
+    text-align: center;
+    line-height: 44px;
+    
+}
+/* 商品信息区域 */
+.main{
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.main .goods{
+    display: flex;
+    padding: 11px 11px 0px;
+    color: #767676;
+}
+.goods .pic{
+    width: 88px;
+    height: 88px;
+    margin-right: 12px;
+}
+.goods .goods_info{
+    flex: 1;
+}
+.goods_info h4{
+    width: 192px;
+    /* height: auto; */
+    font-weight: normal;
+    font-size: 13px;
+    color: #262626;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.goods_info p{
+    width: 150px;
+    height: 11px;
+    margin:5px 0;
+    background-color: #f7f7f8;
+    font-size: 13px;
+    color: #767676
+}
+.goods_info p span:nth-child(1){
+    margin-right: 5px;
+}
+.goods_info .price i{
+    font-size: 16px;
+}
+.goods_info .price span:nth-child(2) i{
+    text-decoration: line-through;
+    color: #999;
+}
+/* 其他信息区域 */
+.other,
+.goods_rest
+{
+    padding: 14px 13px;
+    color:  #262626;
+    font-size: 13px;
+}
+.other div,
+.goods_rest div{
+    display: flex;
+    margin-bottom: 30px;
+}
+.other div:nth-child(odd){
+    justify-content: space-between;
+}
+.other div:last-child,
+.goods_rest div:last-child{
+    margin-bottom: 0px;
+}
+.wenzi {
+    margin-left: 20px;
+    font-size: 12px;
+    color: #989898;
+}
+/* 商品其他信息 */
+.goods_rest div{
+    justify-content: space-between;
+}
+
+
+.goods .count{
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+}
+/* 底部支付区域 */
+.pay{
+    margin-left: 15%;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 9px;
+    padding-right: 12px;
+    border-top: 2px solid #f0f0f0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.pay .left span i{
+    text-align: center;
+    font-size: 20px;
+}
+.pay .right a {
+    display: block;
+    width: 90px;
+    height: 35px;
+    background-image: linear-gradient(90deg, 
+		#6fc2aa 5%, 
+		#54b196 100%);
+	border-radius: 3px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 35px;
+}
+.title{
+	width: 100%;
+	height: 120px;
+	background-color: #FFF;
+}
+.title .center{
+	width: 80%;
+	height: 100px;
+	margin: auto;
+}
+.title .center a{
+	float: left;
+	text-decoration: none;
+	font-size: 24px;
+}
+.title .center .left{
+	float: left;
+	height: 100px;
+    display: block;
+    width: 360px;
+}
+.title .center .right{
+	float: right;
+	position: relative;
+
+}
+.title .center .right .img_1{
+	float: left;
+	background-color: #eaeaea;
+	margin-top: 30px;
+	height: 50px;
+	width: 100px;
+	border-radius: 20px  0px 0px 20px ;
+	line-height: 50px;
+	text-align: center;
+		position: relative;
+}
+.title .center .right .img_1 span{
+	float: right;
+	margin-right: 20px;
+	display: block;
+	transform:rotate(90deg);
+}
+.title .center .right .img_1:hover span{
+	transform:rotate(-90deg);
+	
+}
+	
+.title .center .right .search_1{
+	float: left;
+	margin-top: 30px;
+	margin-right: 40px;
+	height: 50px;
+	border: 0px;
+	background-color: #dedede;
+	outline: none;
+}
+.title .center .right .search_2{
+	float: left;
+	margin-top: 30px;
+	height: 50px;
+	border: 0px;
+	width: 120px;
+	border-radius: 25px;
+	position: absolute;
+	top: 0px;
+	left: 360px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFEFE;
+	background-image:linear-gradient(90deg,#f69c2d,#ff4811);
+}

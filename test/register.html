@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/register.css" type="text/css" />
+	</head>
+	<body>
+		<div class="content">
+			<p><img  src="images/图标.png"/></p>
+			<div class="picture"><img src="images/reg.png"/></div>
+			<div class="right">
+				<h3>使用手机号码注册</h3>
+				<form action="php/signup.php" method="post">
+				<input  type="text" name="phone" placeholder="请输入您的手机号"/>
+
+
+				<div class="codeContent">
+				<img id="refershCode"  style="height: 40px; width: 100px; display:block;padding-top: 20px; 
+				float: left;" class="img_code" src="/php/codeImg.php" alt="没有"/>
+				<input id="code" style="margin-left: 10px;" type="text" name="code" placeholder="短信验证码" class="short" />
+				<p class="p_none">请输入正确的验证码</p>
+			    </div>
+
+				<input type="password" name="password1" placeholder="密码" />
+				<input type="password" name="password2" placeholder="确认密码" />
+				<input type="submit" value="登录" class="button"/>
+				<p>已有账号？<a href="login.html">马上登录</a></p>
+				<div class="clear"></div>
+				<p class="home"><a href="book.php">返回首页</a></p>
+			</div>
+		</div>
+	</body>
+<script src="js/register.js"></script>
+	</html>

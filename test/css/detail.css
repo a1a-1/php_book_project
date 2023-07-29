@@ -1,0 +1,52 @@
+*{padding: 0 ;margin: 0 auto;}
+body{ font-family:"微软雅黑";}
+ul{list-style:none;}
+a{text-decoration:none; color: #000;} 
+.clear {clear:both;}
+/*头部*/
+.top{width: 100%;height: 50px; background-color: #eee;}
+.top ul{width: 700px;margin: auto;}
+.top ul li {width: 100px; ;height: 50px;text-align: center;float: right;position: relative;}
+.top ul li a {line-height: 50px;display: block;}
+.top ul li a:hover{color: coral;background-color:#fff}
+.top ul li ul li{float: none;border-bottom: #eee 1px solid ;}
+.top ul li ul{display: none;position: absolute;z-index: 1;background-color:#fff;width: 100px;}
+.top ul li:hover ul{display: block;}
+.top ul li ul li:hover a {background-color: #eee;}
+/*主体  */
+.nav{width: 1100px;height: 1150px;margin: 10px auto;background-color: #eee;}
+.nav .left{width: 490px;height: 490px;padding: 15px ;float: left;}
+.nav .right{width: 565px;height: 500px;float: left;background-color:azure;padding-top: 20px;margin: 15px 15px 0 0;}
+.nav .right p{padding-top: 10px;}
+.nav .right a{color: red;}
+.nav .right .box{width: 565px;height: 100px;background-color: #fff;margin-top: 30px;}
+.nav .right .box h4{font-size: 20px;padding-top: 10px;padding-left: 10px;float: left;}
+.nav .right .box .price{color: red;font-size: 24px;}
+.nav .right .box .text{padding-left: 15px;float: left;padding-top: 20px;font-size: 12px;}
+.nav .right .box .text a:hover{color: #000;}
+.nav .right .box .lefttext1{width: 100px;height: 100px;background-color: #eee;float: right;text-align: center;margin-right: 10px; }
+.nav .right .box .text2{float:left;padding-left: 10px;padding-top: 20px;font-size: 14px;}
+#two:hover{color: #000;}
+.nav .right .an{width: 100px;height: 45px;background-color: coral;border-radius: 10px;text-align: center;float: right;margin: 20px;color: #fff;font-size: 16px;}
+.nav .right .an1{width: 100px;height: 45px;background-color: red;border-radius: 10px;text-align: center;float: right;margin: 20px;color: #fff;font-size: 16px;}
+
+.nav .right .an:hover{background-color: crimson;}
+.nav .right .an1:hover{background-color: crimson;}
+/* 为你推荐 */
+.pro{ width:1030px; margin:20px auto; position: relative;}
+.pro .con ul {border:1px solid #ccc;position: absolute;} 
+.pro .title1{  text-align:left; background: no-repeat center 10px; line-height:2em;padding-left: 20px;}
+.pro .title1 h2{  font-size:20px; color:#555;}
+.pro .con ul li{width:217px;height: 240px; float:left; margin:20px; text-align:left;}
+.pro .con ul li a{text-decoration:none; color:#666; display:block;}
+.pro .con ul li a:hover{color:#F00;}
+.pro .con ul li a img{border:1px solid #ccc;}
+.pro .con ul li a:hover img{border:1px solid #f00;}
+.price{color: #f00;}
+.foot{width: 100%;height: 100px;background-color: #eee;margin: 0 auto; text-align: center;}
+.foot p{padding-top: 10px;}
+.foot p a{color: #666;}
+.foot p a:hover{color: coral;}
+#dis{color: #555; }
+#dis:hover{color: #000;}
+
